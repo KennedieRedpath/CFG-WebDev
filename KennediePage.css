@@ -1,0 +1,324 @@
+.kennedieBody {
+  width: 100%;
+  height: 190vh;
+  margin-top: 150;
+  margin-bottom: 200;
+  margin-left: 400;
+  background-color: #5f796b;
+  color: #f5f6f7;
+  font-family: Arial;
+  font-size: 16px;
+  background-image: url(Leaves.jpg);
+  background-size: cover;
+}
+h2 {
+  margin-left: 210px;
+  text-align: center;
+  font-size: 40px;
+  font-family: Garamond, serif;
+}
+.p1 {
+  margin-left: 230px;
+  text-align: center;
+  font-size: 20px;
+}
+#kennedie-hr1 {
+  height: 2.5px;
+  background-color: #263727;
+  border-color: #263727;
+  margin-top: 35px;
+}
+#kennedie-hr2 {
+    height: 2.5px;
+    background-color: #263727;
+    border-color: #263727;
+    margin-top: 310px;
+}
+#kennedie-hr3 {
+  height: 0.1px;
+  background-color: #263727;
+  border-color: #263727;
+  margin-top: 200px;
+}
+.form {
+  width: 100%;
+  height: 1350px;
+  background-color: rgb(132, 150, 132);
+  margin-left: 170px;
+  margin-right: 180px;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  max-width: 1050px;
+}
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 5px solid #5f796b;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inline {
+  margin: 5px
+}
+input[type="number"] {
+  margin-bottom: 20px;
+}
+input[type="dropdown"] {
+  margin-bottom: 40px;
+}
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgb(132, 150, 132);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(132, 150, 132);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(165, 197, 170);}
+
+.slideshow {
+  position: absolute;
+  top: 145px;
+  left: 225px;
+  width: 200px;
+  height: 200px;
+}
+
+/* Hedgehog Picture */
+.hedgehog {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 425px;
+  left: 207px;
+}
+
+.hedgehogMiddle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-300%, 198%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hedgehogContainer:hover .hedgehog {
+  opacity: 0.3;
+}
+
+.hedgehogContainer:hover .hedgehogMiddle {
+  opacity: 1;
+}
+
+/* Cat Picture */
+.cat {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 425px;
+  left: 482px;
+}
+
+.catMiddle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-180%, 198%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.catContainer:hover .cat {
+  opacity: 0.3;
+}
+.catContainer:hover .catMiddle {
+  opacity: 1;
+}
+
+/* Axolotl Picture */
+.axolotls {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 425px;
+  left: 757px;
+}
+.axolotlMiddle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(58%, 198%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.axolotlContainer:hover .axolotls {
+  opacity: 0.3;
+}
+.axolotlContainer:hover .axolotlMiddle {
+  opacity: 1;
+}
+
+/* Hamster Picture */
+.hamster {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 425px;
+  left: 1032px;
+}
+.hamsterMiddle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(255%, 198%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hamsterContainer:hover .hamster {
+  opacity: 0.3;
+}
+.hamsterContainer:hover .hamsterMiddle {
+  opacity: 1;
+}
+.pictureText {
+  background-color: #ffffff;
+  color: rgb(132, 150, 132);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.hinterland {
+  width: 1000px;
+  height: 200px;
+  position: absolute;
+  top: 745px;
+  left: 250px;
+}
+
+.hinterlandLogo {
+  width: 360px;
+  height: 360px;
+  position: absolute;
+  top: 940px;
+  left: 890px;
+}
+
+.p2 {
+  width: 580px;
+  position: absolute;
+  top: 945px;
+  left: 245px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.p3{
+  width: 580px;
+  position: absolute;
+  top: 1075px;
+  left: 245px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.p4{
+  width: 580px;
+  position: absolute;
+  top: 1180px;
+  left: 245px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button{
+  background-color: #ffff;
+  color: #263727;
+  border: 2px outset #263727;
+  padding: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: Garamond, serif;
+  margin-top: 640px;
+  margin-left: 350px;
+}
